@@ -49,6 +49,7 @@ add_executable(ImathTest
   testError.cpp
   testFunction.cpp
   testLimits.cpp
+  testLowPrecision.cpp
   testSize.cpp
   testToFloat.cpp
   testInterop.cpp
@@ -89,6 +90,19 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
 
   add_test(NAME ImathHalfPerfTest COMMAND $<TARGET_FILE:ImathHalfPerfTest>)
 
+  #
+  # ImathFP8PerfTest
+  #
+
+  add_executable(ImathFP8PerfTest fp8_perf_test.cpp)
+  target_link_libraries(ImathFP8PerfTest Imath::Imath)
+
+  set_target_properties(ImathFP8PerfTest PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
+  )
+
+  add_test(NAME ImathFP8PerfTest COMMAND $<TARGET_FILE:ImathFP8PerfTest>)
+
   set(TESTS
     testToFloat
     testSize
@@ -100,6 +114,9 @@ if(NOT "${CMAKE_PROJECT_NAME}" STREQUAL "ImathTest")
     testClassification
     testLimits
     testHalfLimits
+    testLowPrecisionConversion
+    testLowPrecisionArithmetic
+    testLowPrecisionRegression
     testFunction
     testVec
     testColor

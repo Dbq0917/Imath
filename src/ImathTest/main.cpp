@@ -26,6 +26,7 @@
 #include "testInvert.h"
 #include "testJacobiEigenSolver.h"
 #include "testLimits.h"
+#include "testLowPrecision.h"
 #include "testLineAlgo.h"
 #include "testMatrix.h"
 #include "testMiscMatrixAlgo.h"
@@ -62,6 +63,9 @@ main (int argc, char* argv[])
     TEST (testClassification);
     TEST (testLimits);
     TEST (testHalfLimits);
+    TEST (testLowPrecisionConversion);
+    TEST (testLowPrecisionArithmetic);
+    TEST (testLowPrecisionRegression);
     TEST (testFunction);
     TEST (testVec);
     TEST (testColor);

@@ -12,6 +12,7 @@ Imath Classes
    :maxdepth: 2
 
    classes/half
+   classes/low_precision
    classes/Box
    classes/Color3
    classes/Color4

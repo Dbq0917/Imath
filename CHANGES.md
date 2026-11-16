@@ -3,6 +3,12 @@
 
 # Imath Release Notes
 
+## Unreleased
+
+* Add header-only FP8 E4M3FN and E5M2 scalar types, lossless FP8/half
+  round trips, nearest-even conversion, batch arithmetic, vector
+  aliases, and precision/range documentation.
+
 * [Version 3.2.0](#version-320-august-8-2025) August 8, 2025
 * [Version 3.1.12](#version-3112-September-9-2024) September 9, 2024
 * [Version 3.1.11](#version-3111-February-28-2024) February 28, 2024

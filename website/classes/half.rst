@@ -14,6 +14,8 @@ half
 ``half`` is a 16-bit floating point number. See :doc:`float` for an
 explanation of the representation.
 
+For 8-bit low-precision alternatives, see :doc:`low_precision`.
+
 See :doc:`half_c` for C-language functions for conversion
 between ``half`` and ``float``. Also, see :doc:`half_conversion`
 for information about building Imath with support for the F16C SSE

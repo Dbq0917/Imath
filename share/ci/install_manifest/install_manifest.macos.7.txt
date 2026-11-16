@@ -8,6 +8,7 @@ lib/Imath.framework/Headers/ImathColorAlgo.h
 lib/Imath.framework/Headers/ImathConfig.h
 lib/Imath.framework/Headers/ImathEuler.h
 lib/Imath.framework/Headers/ImathExport.h
+lib/Imath.framework/Headers/ImathFP8.h
 lib/Imath.framework/Headers/ImathForward.h
 lib/Imath.framework/Headers/ImathFrame.h
 lib/Imath.framework/Headers/ImathFrustum.h
@@ -33,6 +34,7 @@ lib/Imath.framework/Headers/ImathSphere.h
 lib/Imath.framework/Headers/ImathTypeTraits.h
 lib/Imath.framework/Headers/ImathVec.h
 lib/Imath.framework/Headers/ImathVecAlgo.h
+lib/Imath.framework/Headers/fp8.h
 lib/Imath.framework/Headers/half.h
 lib/Imath.framework/Headers/halfFunction.h
 lib/Imath.framework/Headers/halfLimits.h

@@ -11,7 +11,8 @@ Vec3
    
 The ``Vec3`` class template represents a 3D vector, with predefined
 typedefs for vectors of type ``short``, ``int``, ``int64_t``,
-``float``, and ``double``.
+``float``, ``double``, and the 8-bit FP8 types described in
+:doc:`low_precision`.
 
 Note that the integer specializations of ``Vec3`` lack the
 ``length()`` and ``normalize()`` methods that are present in the

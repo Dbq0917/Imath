@@ -21,6 +21,7 @@
 #include "ImathTypeTraits.h"
 
 #include "ImathMath.h"
+#include "ImathFP8.h"
 #include "half.h"
 
 #include <iostream>
@@ -1055,6 +1056,15 @@ operator* (T a, const Vec4<T>& v) IMATH_NOEXCEPT;
 /// Vec2 of half
 typedef Vec2<half> V2h;
 
+/// Vec2 of the default 8-bit floating-point type
+typedef Vec2<fp8> V2q;
+
+/// Vec2 of FP8 E4M3
+typedef Vec2<fp8_e4m3> V2e4m3;
+
+/// Vec2 of FP8 E5M2
+typedef Vec2<fp8_e5m2> V2e5m2;
+
 /// Vec2 of short
 typedef Vec2<short> V2s;
 
@@ -1073,6 +1083,15 @@ typedef Vec2<double> V2d;
 /// Vec3 of half
 typedef Vec3<half> V3h;
 
+/// Vec3 of the default 8-bit floating-point type
+typedef Vec3<fp8> V3q;
+
+/// Vec3 of FP8 E4M3
+typedef Vec3<fp8_e4m3> V3e4m3;
+
+/// Vec3 of FP8 E5M2
+typedef Vec3<fp8_e5m2> V3e5m2;
+
 /// Vec3 of short
 typedef Vec3<short> V3s;
 
@@ -1090,6 +1109,15 @@ typedef Vec3<double> V3d;
 
 /// Vec4 of half
 typedef Vec4<half> V4h;
+
+/// Vec4 of the default 8-bit floating-point type
+typedef Vec4<fp8> V4q;
+
+/// Vec4 of FP8 E4M3
+typedef Vec4<fp8_e4m3> V4e4m3;
+
+/// Vec4 of FP8 E5M2
+typedef Vec4<fp8_e5m2> V4e5m2;
 
 /// Vec4 of short
 typedef Vec4<short> V4s;

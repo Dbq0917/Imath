@@ -20,6 +20,8 @@ set(IMATH_HEADERS
     half.h
     halfFunction.h
     halfLimits.h
+    fp8.h
+    ImathFP8.h
     ImathBox.h
     ImathBoxAlgo.h
     ImathColor.h
